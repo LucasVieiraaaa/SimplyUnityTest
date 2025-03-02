@@ -4,7 +4,7 @@ namespace CalculadoraTestes;
 public class CalculadoraTests
 {
     private CalculadoraImp _calc;
-    
+
     public CalculadoraTests()
     {
         _calc = new CalculadoraImp();
@@ -18,10 +18,10 @@ public class CalculadoraTests
         int num2 = 10;
 
         //Act
-        int resultado = _calc.Somar(num1,num2);
+        int resultado = _calc.Somar(num1, num2);
 
         //Assert
-        Assert. Equal(15,resultado);
+        Assert.Equal(15, resultado);
     }
 
     [Fact]
@@ -32,14 +32,14 @@ public class CalculadoraTests
         int num2 = 10;
 
         //Act
-        int resultado = _calc.Somar(num1,num2);
+        int resultado = _calc.Somar(num1, num2);
 
         //Assert
-        Assert. Equal(20,resultado);
+        Assert.Equal(20, resultado);
     }
 
-
-        public void DeveVerificarSe4EParERetornarVerdadeiro()
+    [Fact]
+    public void DeveVerificarSe4EParERetornarVerdadeiro()
     {
         //Arange
         int num1 = 4;
@@ -48,6 +48,23 @@ public class CalculadoraTests
         bool resultado = _calc.EhPar(num1);
 
         //Assert
+        Assert.True(resultado);
+    }
+
+    [Theory]
+    [InlineData(2)]
+    [InlineData(4)]
+    [InlineData(6)]
+    [InlineData(8)]
+    [InlineData(10)]
+    public void VerificaSeNumerosSaoParesReturnVerdadeiro(int numero)
+    {
+        //Assert
+        //Act
+
+        bool resultado = _calc.EhPar(numero);
+        //Assert
+
         Assert.True(resultado);
     }
 }
