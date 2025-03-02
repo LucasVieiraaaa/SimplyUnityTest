@@ -67,4 +67,18 @@ public class CalculadoraTests
 
         Assert.True(resultado);
     }
+
+    [Theory]
+    [InlineData(new int[] { 2, 4 })]
+    [InlineData(new int[] { 6, 8, 10 })]
+    public void VerificaSeArrayNumerosSaoParesReturnVerdadeiro(int[] numero)
+    {
+        //Assert / Act
+        // foreach (var item in numero)
+        // {
+        //     Assert.True(_calc.EhPar(item));
+        // }
+
+        Assert.All(numero, num => Assert.True(_calc.EhPar(num)));
+    }
 }
