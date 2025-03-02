@@ -97,3 +97,10 @@ C:\Users\Waz\Desktop\MODULOTESTES\CalculadoraTestes\obj\Debug\net8.0\refint\Calc
 C:\Users\Waz\Desktop\MODULOTESTES\CalculadoraTestes\obj\Debug\net8.0\CalculadoraTestes.pdb
 C:\Users\Waz\Desktop\MODULOTESTES\CalculadoraTestes\obj\Debug\net8.0\CalculadoraTestes.genruntimeconfig.cache
 C:\Users\Waz\Desktop\MODULOTESTES\CalculadoraTestes\obj\Debug\net8.0\ref\CalculadoraTestes.dll
+C:\Users\Waz\Desktop\MODULOTESTES\CalculadoraTestes\bin\Debug\net8.0\CoverletSourceRootsMapping_CalculadoraTestes
+C:\Users\Waz\Desktop\MODULOTESTES\CalculadoraTestes\bin\Debug\net8.0\Calculadora.deps.json
+C:\Users\Waz\Desktop\MODULOTESTES\CalculadoraTestes\bin\Debug\net8.0\Calculadora.runtimeconfig.json
+C:\Users\Waz\Desktop\MODULOTESTES\CalculadoraTestes\bin\Debug\net8.0\Calculadora.exe
+C:\Users\Waz\Desktop\MODULOTESTES\CalculadoraTestes\bin\Debug\net8.0\Calculadora.dll
+C:\Users\Waz\Desktop\MODULOTESTES\CalculadoraTestes\bin\Debug\net8.0\Calculadora.pdb
+C:\Users\Waz\Desktop\MODULOTESTES\CalculadoraTestes\obj\Debug\net8.0\CalculadoraTestes.sourcelink.json

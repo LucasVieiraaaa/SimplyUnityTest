@@ -12,3 +12,4 @@ C:\Users\Waz\Desktop\MODULOTESTES\Calculadora\obj\Debug\net8.0\refint\Calculador
 C:\Users\Waz\Desktop\MODULOTESTES\Calculadora\obj\Debug\net8.0\Calculadora.pdb
 C:\Users\Waz\Desktop\MODULOTESTES\Calculadora\obj\Debug\net8.0\Calculadora.genruntimeconfig.cache
 C:\Users\Waz\Desktop\MODULOTESTES\Calculadora\obj\Debug\net8.0\ref\Calculadora.dll
+C:\Users\Waz\Desktop\MODULOTESTES\Calculadora\obj\Debug\net8.0\Calculadora.sourcelink.json
