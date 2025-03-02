@@ -1,10 +1,9 @@
 using System;
+using Calculadora;
 
 namespace CalculadoraTestes;
-
-public class CalculadoraTestes
+public class CalculadoraTests
 {
-
 
     [Fact]
     public void DeveRetornarASomaDeDoisValoresInteiros()
